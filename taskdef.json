@@ -1,5 +1,5 @@
 {
-    "family": "httpdemo",
+    "family": "taskdemo",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
