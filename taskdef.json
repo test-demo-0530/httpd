@@ -1,9 +1,9 @@
 {
-    "family": "taskdemo",
+    "family": "httpd-test",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "httpd",
+            "name": "httpd-test",
             "memory": 128,
             "essential": true,
             "portMappings": [
